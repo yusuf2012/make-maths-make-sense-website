@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -1430,7 +1430,7 @@ footer {
         </div>
         <div class="contact-item">
           <div class="contact-item-icon" aria-hidden="true">📱</div>
-          <span>@mathswithyusuf on TikTok, Instagram &amp; YouTube</span>
+          <span>@mathswithyusuf_ on TikTok · @mathswithyusuf on Instagram &amp; YouTube</span>
         </div>
       </div>
       <div class="contact-form-wrap">
@@ -1510,7 +1510,7 @@ footer {
       <p>Helping young people discover that mathematics is everywhere—and within reach. South Africa.</p>
       <div class="social-row" aria-label="Social media links">
         <a href="https://instagram.com/mathswithyusuf" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📸</a>
-        <a href="https://tiktok.com/@mathswithyusuf" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="TikTok">🎵</a>
+        <a href="https://www.tiktok.com/@mathswithyusuf_" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="TikTok">🎵</a>
         <a href="https://youtube.com/@mathswithyusuf" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶️</a>
         <a href="mailto:info@makemathsmakesense.org" class="social-btn" aria-label="Email us">✉️</a>
       </div>
@@ -1538,7 +1538,7 @@ footer {
       <h4>Connect</h4>
       <ul>
         <li><a href="https://instagram.com/mathswithyusuf" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-        <li><a href="https://tiktok.com/@mathswithyusuf" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        <li><a href="https://www.tiktok.com/@mathswithyusuf_" target="_blank" rel="noopener noreferrer">TikTok</a></li>
         <li><a href="https://youtube.com/@mathswithyusuf" target="_blank" rel="noopener noreferrer">YouTube</a></li>
         <li><a href="mailto:info@makemathsmakesense.org">Email Us</a></li>
       </ul>
@@ -1608,7 +1608,6 @@ if (contactForm) {
   contactForm.addEventListener('submit', async e => {
     e.preventDefault();
 
-    // Basic validation
     const required = contactForm.querySelectorAll('[required]');
     let valid = true;
     required.forEach(field => {
@@ -1645,7 +1644,6 @@ if (contactForm) {
     }
   });
 
-  // Live validation reset
   contactForm.querySelectorAll('[required]').forEach(field => {
     field.addEventListener('input', () => { field.style.borderColor = ''; });
   });
